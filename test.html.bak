@@ -29,75 +29,37 @@
             <form name="test">
                 <p>Какой тег предназначен для создания ссылок:<br>
                     <label>
-                        <input type="radio">&lt;a&gt;<br>
-                    </label> 
-                    <label>
+                    <input type="radio">&lt;a&gt;
+                    </label>                   
                     <input type="radio">&lt;a /&gt;<br>
-                    </label>
-                    <label>
                     <input type="radio">&lt;ref&gt;<br>
-                    </label>
-                    <label>
                     <input type="radio">&lt;ref /&gt;<br>
-                    </label>
                 </p>  
                 <p>Какой тег предназначен для создания нумерованного списка:<br>
-                    <label>
-                        <input type="radio">&lt;li&gt;<br>
-                    </label>   
-                    <label>    
-                        <input type="radio">&lt;dl&gt;<br>
-                    </label>
-                    <label>
-                        <input type="radio">&lt;ol&gt;<br>
-                    </label>
-                    <label>
-                        <input type="radio">&lt;ul&gt;<br>
-                    </label>    
+                    <input type="radio">&lt;li&gt;<br>
+                    <input type="radio">&lt;dl&gt;<br>
+                    <input type="radio">&lt;ol&gt;<br>
+                    <input type="radio">&lt;ul&gt;<br>
                 </p>
                 <p>Какой тег предназначен для передачи служебной информации браузеру:<br>
-                    <label>
-                        <input type="radio">&lt;info&gt;<br>
-                    </label>
-                    <label>
-                        <input type="radio">&lt;info /&gt;<br>
-                    </label>    
-                    <label>    
-                        <input type="radio">&lt;meta&gt;<br>
-                    </label>
-                    <label>
-                        <input type="radio">&lt;meta /&gt;<br>
-                    </label>    
+                    <input type="radio">&lt;info&gt;<br>
+                    <input type="radio">&lt;info /&gt;<br>
+                    <input type="radio">&lt;meta&gt;<br>
+                    <input type="radio">&lt;meta /&gt;<br>
                 </p>
                 <p>
                 Какие теги используются при создании таблицы:<br>
-                    <label>
-                        <input type="checkbox">&lt;bodyt&gt;<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">&lt;td&gt;<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">&lt;caption&gt;<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">&lt;column&gt;<br>
-                    </label>    
+                    <input type="checkbox">&lt;bodyt&gt;<br>
+                    <input type="checkbox">&lt;td&gt;<br>
+                    <input type="checkbox">&lt;caption&gt;<br>
+                    <input type="checkbox">&lt;column&gt;<br>
                 </p>
                 <p>
                 Какие атрибуты используются при создании форм:<br>
-                    <label>
-                        <input type="checkbox">autocomplete<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">action<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">charset<br>
-                    </label>
-                    <label>
-                        <input type="checkbox">validate<br>
-                    </label>    
+                    <input type="checkbox">autocomplete<br>
+                    <input type="checkbox">action<br>
+                    <input type="checkbox">charset<br>
+                    <input type="checkbox">validate<br>
                     <input type="button" value="Результат">
                 </p>
             </form>                   

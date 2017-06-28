@@ -10,5 +10,5 @@ a:active {
     color: red;
 }
 label:hover {
-    color: lime;
+    color: pink;
 }
