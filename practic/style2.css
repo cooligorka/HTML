@@ -1,0 +1,34 @@
+body {
+    width: 400px;
+    padding: 0;
+    margin: auto auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;    
+}
+.first-li {
+    background-color: #F00;
+    margin: 0 20px;
+}
+.second-li {
+    background-color: #FF0;
+    margin: 0 40px;
+}
+.third-li {
+    background-color: #0F0;
+    margin: 0 60px;
+}
+.fourth-li {
+    background-color: #0FF;
+    margin: 0 80px;
+}
+.fifth-li {
+    background-color: #00F;
+    margin: 0 100px;
+}
+.sixth-li {
+    background-color: #F0F;
+    margin: 0 120px;
+}
