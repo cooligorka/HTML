@@ -33,9 +33,12 @@ td {
     border-radius: 50%;
 }
 /*styles for list element*/
+
 ul {
     width: 400px;
     list-style-type: none;
+    color: white;
+    text-align: center;
     padding: 0;
     background-color: black;
     margin: auto auto;    
