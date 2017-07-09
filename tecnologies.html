@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>   
-	<title>Главная</title>
+		<title>Главная</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="./style.css" />
 	</head>
-	<body>
+	<body>        
         <header>
-            <img src="./images/logo.png" alt="picture" />
-            <h1>Технологии Front End</h1>          
+            <div class="header">
+                <img src="./images/logo.png" alt="picture" class="logo"/>
+                <h1>Технологии Front End</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="first-ul">
                     <li><a href="index.html">Главная</a></li>
                     <li>
                         <a href="tecnologies.html">Технологии</a>
-                        <ul>
+                        <ul class="second-ul">
                             <li><a href="html.html">HTML</a></li>
                             <li><a href="css.html">CSS</a></li>
                             <li><a href="bootstrap.html">Bootstrap</a></li>
@@ -23,9 +25,9 @@
                     <li><a href="calc.html">Калькулятор</a></li>
                     <li><a href="test.html">Тест</a></li>
                 </ul>
-            </nav>   
+            </nav>
         </header>
-        <div>
+        <div class="main">  
             <p>Курс посвящен следующим Web-технологиям:</p>
             <dl>
                 <dt><strong>HTML</strong></dt>

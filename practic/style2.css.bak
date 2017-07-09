@@ -2,12 +2,12 @@
 ul {
     width: 400px;
     list-style-type: none;
-    color: white;
-    text-align: center;
+        color: white;
     padding: 0;
     background-color: black;
     margin: auto auto;    
 }
+
 .first-li {
     background-color: #F00;
     margin: 0 20px;

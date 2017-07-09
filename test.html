@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>   
-	<title>Главная</title>
+		<title>Главная</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="./style.css" />
 	</head>
-	<body>
+	<body>        
         <header>
-            <img src="./images/logo.png" alt="picture" />
-            <h1>Технологии Front End</h1>          
+            <div class="header">
+                <img src="./images/logo.png" alt="picture" class="logo"/>
+                <h1>Технологии Front End</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="first-ul">
                     <li><a href="index.html">Главная</a></li>
                     <li>
                         <a href="tecnologies.html">Технологии</a>
-                        <ul>
+                        <ul class="second-ul">
                             <li><a href="html.html">HTML</a></li>
                             <li><a href="css.html">CSS</a></li>
                             <li><a href="bootstrap.html">Bootstrap</a></li>
@@ -23,11 +25,12 @@
                     <li><a href="calc.html">Калькулятор</a></li>
                     <li><a href="test.html">Тест</a></li>
                 </ul>
-            </nav>   
+            </nav>
         </header>
-        <div>    
+        <div class="main">    
             <form name="test">
-                <p>Какой тег предназначен для создания ссылок:<br>
+                <div class="test">
+                Какой тег предназначен для создания ссылок:<br>
                     <label>
                         <input type="radio">&lt;a&gt;
                     </label><br> 
@@ -40,8 +43,10 @@
                     <label>
                     <input type="radio">&lt;ref /&gt;
                     </label><br>
-                </p>  
-                <p>Какой тег предназначен для создания нумерованного списка:<br>
+                
+                </div>
+                <div class="test">
+                Какой тег предназначен для создания нумерованного списка:<br>
                     <label>
                         <input type="radio">&lt;li&gt;
                     </label><br>   
@@ -54,8 +59,10 @@
                     <label>
                         <input type="radio">&lt;ul&gt;
                     </label><br>    
-                </p>
-                <p>Какой тег предназначен для передачи служебной информации браузеру:<br>
+                
+                </div>
+                <div class="test">
+                Какой тег предназначен для передачи служебной информации браузеру:<br>
                     <label>
                         <input type="radio">&lt;info&gt;
                     </label><br>
@@ -68,8 +75,10 @@
                     <label>
                         <input type="radio">&lt;meta /&gt;
                     </label><br>    
-                </p>
-                <p>
+                
+                </div>
+                <div class="test">
+                
                 Какие теги используются при создании таблицы:<br>
                     <label>
                         <input type="checkbox">&lt;bodyt&gt;
@@ -83,8 +92,10 @@
                     <label>
                         <input type="checkbox">&lt;column&gt;
                     </label><br>    
-                </p>
-                <p>
+                
+                </div>
+                <div class="test">
+                
                 Какие атрибуты используются при создании форм:<br>
                     <label>
                         <input type="checkbox">autocomplete
@@ -97,9 +108,11 @@
                     </label><br>
                     <label>
                         <input type="checkbox">validate
-                    </label><br>		
-                    <input type="button" value="Результат">
-                </p>
+                    </label><br>		              
+                </div>
+                <div class="margin-left">
+                    <button type="submit">Результат</button>
+                </div>
             </form>
             </div>
         <footer>

@@ -1,3 +1,4 @@
+
 table {
     border-collapse: collapse;
 }
@@ -31,4 +32,70 @@ td {
 }
 .td-six {
     border-radius: 50%;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 50px;
+    height: 50px;
+}
+.bl {
+    background-color: blue;
+}
+.rd {
+    background-color: red;
+}
+.td-one {
+    border-radius: 25px 25px 0 0;
+}
+.td-seven {
+    border-radius: 0 0 25px 25px;
+}
+.td-nine {
+    border-radius: 0 25px 25px 0;
+}
+.td-eight {
+    border-radius: 0 0 0 25px;
+}
+.td-two {
+    border-radius: 25px 0 0 0;
+}
+.td-three {
+    border-radius: 0 25px 25px 0;
+}
+.td-six {
+    border-radius: 50%;
+}
+/*styles for list element*/
+ul {
+    width: 400px;
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    margin: auto auto;    
+}
+.first-li {
+    background-color: #F00;
+    margin: 0 20px;
+}
+.second-li {
+    background-color: #FF0;
+    margin: 0 40px;
+}
+.third-li {
+    background-color: #0F0;
+    margin: 0 60px;
+}
+.fourth-li {
+    background-color: #0FF;
+    margin: 0 80px;
+}
+.fifth-li {
+    background-color: #00F;
+    margin: 0 100px;
+}
+.sixth-li {
+    background-color: #F0F;
+    margin: 0 120px;
 }

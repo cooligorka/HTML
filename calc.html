@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>   
 		<title>Главная</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="./style.css" />
 	</head>
-	<body>
+	<body>        
         <header>
-            <img src="./images/logo.png" alt="picture" />
-            <h1>Технологии Front End</h1>          
+            <div class="header">
+                <img src="./images/logo.png" alt="picture" class="logo"/>
+                <h1>Технологии Front End</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="first-ul">
                     <li><a href="index.html">Главная</a></li>
                     <li>
                         <a href="tecnologies.html">Технологии</a>
-                        <ul>
+                        <ul class="second-ul">
                             <li><a href="html.html">HTML</a></li>
                             <li><a href="css.html">CSS</a></li>
                             <li><a href="bootstrap.html">Bootstrap</a></li>
@@ -23,75 +25,75 @@
                     <li><a href="calc.html">Калькулятор</a></li>
                     <li><a href="test.html">Тест</a></li>
                 </ul>
-            </nav>   
+            </nav>
         </header>
-        <div>        
+        <div class="main calc">       
             <form name="calc">
-                <table border="1px">
+                <table>
                     <tr>
                         <td colspan="5">
-                            <input name="res" type="textfield" value="">
+                            <input name="res" type="text">
                         </td>                      
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" value="7" onclick="document.calc.res.value+='7'">
+                            <input type="button" value="7">
                         </td>
                         <td>
-                            <input type="button" value="8" onclick="document.calc.res.value+='8'">
+                            <input type="button" value="8">
                         </td>
                         <td>
-                            <input type="button" value="9" onclick="document.calc.res.value+='9'">
+                            <input type="button" value="9">
                         </td>
                         <td>
-                            <input type="button" value="/" onclick="document.calc.res.value+='/'">
+                            <input type="button" value="/">
                         <td>
                             <input type="reset" value="C">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" value="4" onclick="document.calc.res.value+='4'">
+                            <input type="button" value="4">
                         </td>
                         <td>
-                            <input type="button" value="5" onclick="document.calc.res.value+='5'">
+                            <input type="button" value="5">
                         </td>
                         <td>
-                            <input type="button" value="6" onclick="document.calc.res.value+='6'">
+                            <input type="button" value="6">
                         </td>
                         <td>
-                            <input type="button" value="*" onclick="document.calc.res.value+='*'">
+                            <input type="button" value="*">
                         </td>
                         <td>
-                            <input type="button" value="&#177;" onclick="document.calc.res.value+='&#177;'">
+                            <input type="button" value="&#177;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" value="1" onclick="document.calc.res.value+='1'">
+                            <input type="button" value="1">
                         </td>
                         <td>
-                            <input type="button" value="2" onclick="document.calc.res.value+='2'">
+                            <input type="button" value="2">
                         </td>
                         <td>
-                            <input type="button" value="3" onclick="document.calc.res.value+='3'">
+                            <input type="button" value="3">
                         </td>
                         <td>
-                            <input type="button" value="-" onclick="document.calc.res.value+='-'">
+                            <input type="button" value="-">
                         </td>
                         <td rowspan="2">
-                            <input type="button" value="=" onClick="document.calc.res.value=eval(document.calc.res.value)">
+                            <input type="button" value="=">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="button" value="0" onclick="document.calc.res.value+='0'">
+                            <input type="button" value="0">
                         </td>                    
                         <td>
-                            <input type="button" value="." onclick="document.calc.res.value+='.'">
+                            <input type="button" value=".">
                         </td>
                         <td>
-                            <input type="button" value="+" onclick="document.calc.res.value+='+'">
+                            <input type="button" value="+">
                         </td>                        
                     </tr>
                 </table>   
