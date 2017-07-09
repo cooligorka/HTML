@@ -33,6 +33,7 @@ td {
 .td-six {
     border-radius: 50%;
 }
+<<<<<<< HEAD
 table {
     border-collapse: collapse;
 }
@@ -71,6 +72,15 @@ td {
 ul {
     width: 400px;
     list-style-type: none;
+=======
+/*styles for list element*/
+
+ul {
+    width: 400px;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+>>>>>>> 8c2bf2b5eec990f8d3bacdb8a6bc81ebe32278ed
     padding: 0;
     background-color: black;
     margin: auto auto;    
@@ -98,4 +108,8 @@ ul {
 .sixth-li {
     background-color: #F0F;
     margin: 0 120px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8c2bf2b5eec990f8d3bacdb8a6bc81ebe32278ed
