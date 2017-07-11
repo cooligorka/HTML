@@ -11,7 +11,7 @@
             <h1>Технологии Front End</h1>            
         </header>            
             <nav>
-                <ul>
+                <ul class="first-ul">
                     <li><a href="index.html">Главная</a></li>
                     <li>
                         <a href="tecnologies.html">Технологии</a>
@@ -24,17 +24,17 @@
                     <li><a href="calc.html">Калькулятор</a></li>
                     <li><a href="test.html">Тест</a></li>
                 </ul>
-            </nav> 
+            </nav>
         <div class="main"> 
-            <h2>Bootstrap</h2>
-            <p>
-<i><strong>Bootstrap</strong></i> (также известен как <strong>Twitter Bootstrap</strong>) — свободный набор инструментов для создания <i>сайтов</i> и <i>Web-приложений</i>. Включает в себя <i>HTML</i>- и <i>CSS</i>-шаблоны оформления для <i>типографики</i>, Web-форм, кнопок, меток, блоков навигации и прочих компонентов Web-интерфейса, включая <i>JavaScript</i>-расширения.
-Bootstrap использует современные наработки в области CSS и HTML, поэтому необходимо быть внимательным при поддержке старых браузеров. 
+            <h2>CSS3</h2>
+            <p>            
+<i><strong>CSS</strong></i> (англ. Cascading Style Sheets — каскадные таблицы стилей) — <i>формальный язык</i> описания внешнего вида документа, написанного с использованием <i>языка разметки</i>.
+Преимущественно используется как средство описания, оформления внешнего вида <i>Web-страниц</i>, написанных с помощью <i>языков разметки</i> HTML и XHTML, но может также применяться к любым <i>XML-документам</i>, например, к <abbr title="Scalable Vector Graphics — масштабируемая векторная графика">SVG</abbr> или <abbr title="XML User Interface Language — язык разметки для создания динамических пользовательских интерфейсов на основе XML">XUL</abbr>. 
             </p>        
         </div>
         <footer>
             <address><a href="mailto:sent@to.ua">Пишите: sent@to.ua</a></address>
             &copy; Пикалов И.А., 1970 г.
-        </footer>               
+        </footer>        
 	</body>
 </html>

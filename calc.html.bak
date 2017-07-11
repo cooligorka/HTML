@@ -11,7 +11,7 @@
             <h1>Технологии Front End</h1>            
         </header>            
             <nav>
-                <ul>
+                <ul class="first-ul">
                     <li><a href="index.html">Главная</a></li>
                     <li>
                         <a href="tecnologies.html">Технологии</a>

@@ -76,6 +76,7 @@
                 
                 </div>
                 <div class="test">
+                
                 Какие теги используются при создании таблицы:<br>
                     <label>
                         <input type="checkbox">&lt;bodyt&gt;
@@ -91,7 +92,8 @@
                     </label><br>    
                 
                 </div>
-                <div class="test">                
+                <div class="test">
+                
                 Какие атрибуты используются при создании форм:<br>
                     <label>
                         <input type="checkbox">autocomplete
