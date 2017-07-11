@@ -25,9 +25,9 @@
                     <li><a href="test.html">Тест</a></li>
                 </ul>
             </nav>
-        <div class="main">    
-            <form name="test">
-                <div class="test">
+        <div class="main">
+            <div class="test">
+            <form name="test">               
                 Какой тег предназначен для создания ссылок:<br>
                     <label>
                         <input type="radio">&lt;a&gt;
@@ -42,8 +42,7 @@
                     <input type="radio">&lt;ref /&gt;
                     </label><br>
                 
-                </div>
-                <div class="test">
+               
                 Какой тег предназначен для создания нумерованного списка:<br>
                     <label>
                         <input type="radio">&lt;li&gt;
@@ -58,8 +57,7 @@
                         <input type="radio">&lt;ul&gt;
                     </label><br>    
                 
-                </div>
-                <div class="test">
+               
                 Какой тег предназначен для передачи служебной информации браузеру:<br>
                     <label>
                         <input type="radio">&lt;info&gt;
@@ -74,9 +72,7 @@
                         <input type="radio">&lt;meta /&gt;
                     </label><br>    
                 
-                </div>
-                <div class="test">
-                
+               
                 Какие теги используются при создании таблицы:<br>
                     <label>
                         <input type="checkbox">&lt;bodyt&gt;
@@ -91,9 +87,8 @@
                         <input type="checkbox">&lt;column&gt;
                     </label><br>    
                 
-                </div>
-                <div class="test">
-                
+               
+                                
                 Какие атрибуты используются при создании форм:<br>
                     <label>
                         <input type="checkbox">autocomplete
