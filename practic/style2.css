@@ -1,4 +1,4 @@
-
+/*
 table {
     border-collapse: collapse;
 }
@@ -33,7 +33,6 @@ td {
 .td-six {
     border-radius: 50%;
 }
-<<<<<<< HEAD
 table {
     border-collapse: collapse;
 }
@@ -68,19 +67,14 @@ td {
 .td-six {
     border-radius: 50%;
 }
-/*styles for list element*/
-ul {
-    width: 400px;
-    list-style-type: none;
-=======
-/*styles for list element*/
 
+/*styles for list element*/
+/*
 ul {
     width: 400px;
     list-style-type: none;
     color: white;
     text-align: center;
->>>>>>> 8c2bf2b5eec990f8d3bacdb8a6bc81ebe32278ed
     padding: 0;
     background-color: black;
     margin: auto auto;    
@@ -108,8 +102,88 @@ ul {
 .sixth-li {
     background-color: #F0F;
     margin: 0 120px;
-<<<<<<< HEAD
 }
-=======
+
+                /* Задание №1. Размеры */
+/* div {
+    width: 15%;
+    border: solid black 2px;
 }
->>>>>>> 8c2bf2b5eec990f8d3bacdb8a6bc81ebe32278ed
+.second {
+    float: left;
+}
+.first {
+    float: right;
+}
+.third {
+    float: right;
+}
+.fourth {
+    float: left;
+}
+.fifth {
+    float: right;
+}
+.sixth {
+    float: left;
+}
+*/
+                /* Задание №2. Размеры. Граница */
+
+/* .first {
+    background-color: green;
+    width: 20%;
+    float: right;
+}
+.second {
+    width: 80%;
+    background-color: red; 
+}
+.third {
+    background-color: green;    
+    width: 20%;
+    float: left;
+}
+.fourth {
+    width: 80%;
+    background-color: red;
+    float: left;
+} */
+                /* Задание №3. Вложенные плавающие блоки */
+
+.first {
+    width: 20%;
+    background-color: #F00;
+    float: left;
+}
+.second {
+    margin-left: 20%;
+    width: 80%;
+    background-color: #0F0;
+    float: left;
+}
+
+.third {
+    width: 35%;
+    background-color: #00F;
+    float: right;
+}
+.fourth {
+    margin-right: 35%;
+    width: 65%;
+    background-color: #000;
+}
+.fifth {
+    width: 35%;
+    background-color: #F0F;
+    float: right;
+}
+.sixth {
+    width: 35%;
+    background-color: #0FF;
+}
+.seventh {
+    float: left;
+    width: 35%;
+    background-color: #FF0;
+}
