@@ -67,9 +67,9 @@ td {
 .td-six {
     border-radius: 50%;
 }
-
-/*styles for list element*/
-/*
+*/
+            /*styles for list element*/
+/* 
 ul {
     width: 400px;
     list-style-type: none;
@@ -102,10 +102,12 @@ ul {
 .sixth-li {
     background-color: #F0F;
     margin: 0 120px;
-}
+} 
+*/
 
-                /* Задание №1. Размеры */
-/* div {
+                /* Задание №1. Блочная верстка */
+/*
+ div {
     width: 15%;
     border: solid black 2px;
 }
@@ -128,9 +130,9 @@ ul {
     float: left;
 }
 */
-                /* Задание №2. Размеры. Граница */
-
-/* .first {
+                /* Задание №2. Блочная верстка */
+/* 
+.first {
     background-color: green;
     width: 20%;
     float: right;
@@ -148,42 +150,114 @@ ul {
     width: 80%;
     background-color: red;
     float: left;
-} */
+} 
+*/
                 /* Задание №3. Вложенные плавающие блоки */
-
+/*
+* {
+   color: white;   
+}
 .first {
     width: 20%;
     background-color: #F00;
     float: left;
 }
 .second {
-    margin-left: 20%;
+    display: inline-block;
     width: 80%;
     background-color: #0F0;
-    float: left;
 }
-
 .third {
-    width: 35%;
+    width: 25%;
     background-color: #00F;
     float: right;
 }
 .fourth {
-    margin-right: 35%;
-    width: 65%;
+    width: 75%;
     background-color: #000;
+
 }
 .fifth {
-    width: 35%;
-    background-color: #F0F;
     float: right;
+    width: 25%;
+    background-color: #F0F;
 }
 .sixth {
-    width: 35%;
+    float: left;
+    width: 25%;
     background-color: #0FF;
 }
 .seventh {
-    float: left;
-    width: 35%;
+    width: 50%;
     background-color: #FF0;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+*/
+        /* Задание №4. Выравнивание колонок по высоте */    
+/*
+.first {
+    width: 100%;
+    background-color: red;
+}
+.second {
+    width: 33%;
+    float: left;
+}
+.third {
+    width: 33%;
+    float: right;
+}
+.fourth {
+    width: 34%;
+    background-color: white;
+    display: inline-block;
+}    
+*/
+            /* Задание №5. Свойство display */
+/*             
+span, div div {
+    border: solid 2px black;
+    width: 50px;
+    height: 50px;
+}            
+.first {
+    display: block;
+}
+.second {
+    display: inline;
+}
+.third {
+    display: inline-block;
+}
+*/
+        /*Задание №6. Создание навигации*/
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+li.first-li {
+    margin: 5px;
+    float: left;
+}
+
+a {
+    width: 90px;
+    display: block;
+    padding: 8px;
+    border: solid 2px black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+a.first {
+    background-color: red;
+}
+.second {
+    background-color: lime;
+}
+.third {
+    background-color: blue;
+}
+*/
