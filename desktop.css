@@ -1,0 +1,140 @@
+* {
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    background-color: gray;
+    max-width: 1000px;
+    font-size: 16px;
+}
+h3 {
+    margin-top: 5px;
+}
+p {
+    text-indent: 3.061224%;
+}
+
+.header {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1.020408%;
+    text-align: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 12%;
+    height: 42px;
+    left: 1.020408%;
+    top: 50%;
+    margin-top: -21px;
+    
+}
+nav {
+    display: inline-block;
+}
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+ul.first-ul>li { 
+    float: left; 
+}
+ul a {
+    padding: 5px;
+}
+.second-ul {
+    position: absolute;
+    border: solid 2px black;
+    border-radius: 5px;
+    display: none;
+    padding: 5px;
+    left: 67px;
+    top: 20px;
+    background-color: white;
+}
+.menu:hover .second-ul {
+    display: block;
+}
+
+.main {
+    width: 100%;
+    text-align: justify;  
+    background-color: white;
+    min-height: 220px;
+    border-radius: 10px;
+    padding: 1.020408%;  
+}
+footer {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.test {
+    width: 20%;
+    padding: 0.510204%;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    text-align: justify;
+}
+aside {
+    font-family: Arial;
+    text-align: justify;
+    width: 35%;
+    float: right;
+    background-color: silver;
+    border-radius: 10px;
+    padding: 0.510204%;
+    margin-left: 1.020408%;
+}
+#anchor {
+    display: none;
+}
+dl {
+    margin: 0;   
+}
+dd {
+    margin-left: 3.061224%;
+}
+.main-calc {
+    text-align: center;
+    margin: auto;
+}
+.test {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-wrapper{
+    text-align: center;
+    padding:5px;
+}
+td {
+    background-image: linear-gradient(to bottom, #F5F5F5, #D3D3D3);
+    border: 1px solid gray;
+    padding: 0;
+}
+td input {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 15px;
+}
+.text-area {
+    width: 100%;
+    padding:5px 10px;
+    background-color: white;
+
+}
+.result-button {
+    clear: both;
+    display: block;
+    border: 1px solid;
+    padding: 5px;
+    margin: auto;
+}
