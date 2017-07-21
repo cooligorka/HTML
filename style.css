@@ -1,2 +1,2 @@
-@import url(mobile.css) (max-device-width: 481px); 
-@import url(desktop.css) (min-device-width: 481px);
+@import url(mobile.css) (max-device-width: 768px); 
+@import url(desktop.css) (min-device-width: 768px);

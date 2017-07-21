@@ -12,7 +12,6 @@ body {
 }
 h1 {
     font-size: 1.75rem;
-    display: inline-block;
 }
 h3 {
     margin-top: 5px;
@@ -29,16 +28,29 @@ p {
     text-align: center;
     position: relative;
 }
-.logo {
+.goog {
     position: absolute;
-    width: 15%;
-    height: 38px;
+    width: 12%;
+    height: 46px;
     left: 1.020408%;
     top: 50%;
-    margin-top: -19px;
+    margin-top: -23px;    
+}
+.logo {
+    position: absolute;
+    width: 12%;
+    height: 46px;
+    left: 1.020408%;
+    top: 50%;
+    margin-top: -23px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.logo:hover {
+    opacity: 0;
 }
 nav {
-
     display: inline-block;
 }
 nav ul {
@@ -59,7 +71,7 @@ ul a {
     border-radius: 5px;
     display: none;
     padding: 5px;
-    left: 55px;
+    left: 50px;
     top: 20px;
     background-color: white;
 }
@@ -104,9 +116,12 @@ aside {
     background-color: white;
     bottom: 10px;
     left: 5px;
+    transition-property: left;
+    transition-duration: 2s;
 }
 #anchor:hover {
     background-color: lime;
+    left: 200px;
 }
 dl {
     margin: 0;   

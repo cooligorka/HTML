@@ -26,14 +26,27 @@ p {
     text-align: center;
     position: relative;
 }
+.goog {
+    position: absolute;
+    width: 12%;
+    height: 46px;
+    left: 1.020408%;
+    top: 50%;
+    margin-top: -23px;    
+}
 .logo {
     position: absolute;
     width: 12%;
-    height: 42px;
+    height: 46px;
     left: 1.020408%;
     top: 50%;
-    margin-top: -21px;
-    
+    margin-top: -23px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.logo:hover {
+    opacity: 0;
 }
 nav {
     display: inline-block;
