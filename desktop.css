@@ -18,7 +18,7 @@ p {
     text-indent: 3.061224%;
 }
 
-.header {
+header {
     background-color: white;
     border-radius: 10px;
     width: 100%;
@@ -28,7 +28,7 @@ p {
 }
 .goog {
     position: absolute;
-    width: 12%;
+    width: 14%;
     height: 46px;
     left: 1.020408%;
     top: 50%;
@@ -36,7 +36,7 @@ p {
 }
 .logo {
     position: absolute;
-    width: 12%;
+    width: 14%;
     height: 46px;
     left: 1.020408%;
     top: 50%;
